@@ -1,0 +1,53 @@
+.app {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 16px 40px;
+  font-family: system-ui, sans-serif;
+}
+
+.banner-publica {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 24px;
+}
+
+.cabecera {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 24px 0 8px;
+}
+
+.icono-src {
+  width: 48px;
+  height: 48px;
+}
+
+.campo {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+select {
+  padding: 8px;
+  font-size: 15px;
+}
+
+.resumen {
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+.resumen p {
+  margin: 4px 0;
+}
+
+.pista {
+  font-size: 13px;
+  color: #64748b;
+}
